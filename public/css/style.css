@@ -1,0 +1,92 @@
+/*Home Page*/
+html{
+    height:100%;
+}
+.resize {
+    width: 100px;
+    height: auto;
+    padding:0px;
+    position:relative;
+    top:-8px;
+}
+
+.carouselsize{
+    width: 800px;
+    height: auto;
+
+}
+
+.imgsize{
+    width: 100%;;
+    height: 100%;
+}
+
+.catsize{
+    width: 100px;
+    height: 100px;
+
+}
+
+.item{
+    display: inline-block;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    margin: 10px;
+    min-height: 300px;
+    padding: 0;
+}
+
+h5 {
+    display: block;
+    white-space: nowrap;
+    width: 8em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: black; /* This needs to match the color of the anchor tag */
+  }
+
+  a:link {
+    color: black;
+  }
+
+  .harga{
+      padding-top: 14px;
+      color: orangered;
+  }
+
+  /*Detail.blade.php*/
+.detailimg{
+    float: left;
+    height: 400px;
+    width: 400px;
+}
+
+.orange{
+    color:orangered;
+    font-size: 20px;
+}
+
+.detailtext{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+    font-size: 18px;
+}
+
+.detailinfo{
+    font-size: 14px;
+}
+
+/*SEARCH*/
+.searchimg{
+    width: 100%;
+    height: 200px;
+
+}
+
+
+/*FOOTER*/
+footer{
+    position: relative;
+    clear:both;
+    height:150px;
+    margin-top: 40px;
+}
